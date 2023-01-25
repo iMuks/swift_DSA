@@ -7,5 +7,6 @@
         <page name='88. Merge Sorted Array'/>
         <page name='anagrams'/>
         <page name='mostFrequentChar'/>
+        <page name='pairSum'/>
     </pages>
 </playground>
