@@ -9,5 +9,6 @@
         <page name='mostFrequentChar'/>
         <page name='pairSum'/>
         <page name='pairProduct'/>
+        <page name='intersection'/>
     </pages>
 </playground>
