@@ -3,7 +3,7 @@
     <pages>
         <page name='26. Remove Duplicates from Sorted Array'/>
         <page name='uncompress'/>
-        <page name='Untitled Page 2'/>
+        <page name='compress'/>
         <page name='88. Merge Sorted Array'/>
     </pages>
 </playground>
