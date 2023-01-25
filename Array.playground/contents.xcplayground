@@ -5,5 +5,7 @@
         <page name='uncompress'/>
         <page name='compress'/>
         <page name='88. Merge Sorted Array'/>
+        <page name='anagrams'/>
+        <page name='mostFrequentChar'/>
     </pages>
 </playground>
