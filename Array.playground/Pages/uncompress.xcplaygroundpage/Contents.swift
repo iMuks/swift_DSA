@@ -42,5 +42,5 @@ class Solution {
 }
 
 let sol = Solution()
-let result = sol.uncompress("1c3a1t")
+let result = sol.uncompress("420M")
 print(result)

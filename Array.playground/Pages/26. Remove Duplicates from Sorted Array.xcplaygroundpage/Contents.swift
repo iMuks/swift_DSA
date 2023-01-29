@@ -50,14 +50,31 @@ class Solution {
         var i = 0 // 0(1)
         let totalCount = nums.count  // 0(1)
         for j in 1..<totalCount { // 0(n)
-            if nums[i] != nums[j] {
-                i = i + 1
-                nums[i] = nums[j]
+            if nums[i] != nums[j] { // not equal to 1
+                i = i + 1 // 2
+                nums[i] = nums[j] // 3
             }
         }
         return i + 1
     }
 }
+
+/*
+ 
+ [0,    0,      1,      1,      2,       2,         3,      4,       5,         6,       7,     8,  9, 10]
+ a[i]   a[j]
+ 
+     [0,    0,      1,      1,      2,       2,         3,      4,       5,         6,       7,     8,  9, 10]
+ 1.  a[i]    !=     a[j]
+ 2.         a[i]
+ 3.         a[i]            a[j]
+    [0,     1,      1,      2,       2,         3,      4,       5,         6,       7,     8,  9, 10]
+ 1.         a[i]    !=     a[j]
+ 2.                 a[i]
+ 3.                 a[i] = a[j]
+ [0,     1,           2,       2,         3,      4,       5,         6,       7,     8,  9, 10]
+
+ */
 
 let sol = Solution()
 var temp = dynamicArr.sorted()
