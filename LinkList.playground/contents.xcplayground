@@ -4,6 +4,8 @@
         <page name='Intro'/>
         <page name='linked list values'/>
         <page name='sum list'/>
+        <page name='get node value '/>
         <page name='linked list find'/>
+        <page name='reverse list '/>
     </pages>
 </playground>
