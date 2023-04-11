@@ -2,7 +2,25 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:LinkList.playground">
+      location = "group:Mixed Recall.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Exhautive Recursion.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Dynamic Programming.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Stack.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Graph.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mukeshsharma/Documents/IOS/GITHUB/swift_DSA/Binary Tree.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mukeshsharma/Documents/IOS/GITHUB/swift_DSA/Linklist.playground">
    </FileRef>
    <FileRef
       location = "group:Array.playground">
