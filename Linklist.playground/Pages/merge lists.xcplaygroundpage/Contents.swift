@@ -51,6 +51,31 @@ class Merge<Int> {
         
         return dummyNode?.next
     }
+    
+    // using recussion
+    func mergeusingRec(_ head1: NewNode<Int>?, _ head2: NewNode<Int>?) -> NewNode<Int>? {
+        
+        guard var c1 = head1, var c2 = head2 else {
+            return nil
+        }
+        
+        if c1 == nil {
+            return c2
+        }
+        if c2 == nil {
+            return c1
+        }
+        
+        if c1.value < c2.value {
+            c1.next = mergeusingRec(c1.next, c2)
+            return c1
+        } else {
+            c2.next = mergeusingRec(c1, c2.next)
+            return c2
+        }
+        return nil
+    }
+    
 }
 
 let node5 = NewNode<Int>(5)
