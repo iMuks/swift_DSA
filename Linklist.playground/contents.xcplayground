@@ -8,5 +8,7 @@
         <page name='linked list find'/>
         <page name='reverse list '/>
         <page name='zipper lists'/>
+        <page name='merge lists'/>
+        <page name='unique value'/>
     </pages>
 </playground>
