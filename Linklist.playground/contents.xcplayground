@@ -10,5 +10,8 @@
         <page name='zipper lists'/>
         <page name='merge lists'/>
         <page name='unique value'/>
+        <page name='longest streak'/>
+        <page name='remove node'/>
+        <page name='insert node'/>
     </pages>
 </playground>
