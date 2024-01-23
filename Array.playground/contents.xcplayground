@@ -10,5 +10,6 @@
         <page name='pairSum'/>
         <page name='pairProduct'/>
         <page name='intersection'/>
+        <page name='Second Largest number'/>
     </pages>
 </playground>
