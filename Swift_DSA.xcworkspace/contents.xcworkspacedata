@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Linklist.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Binary Tree.playground">
+   </FileRef>
+   <FileRef
       location = "group:Mixed Recall.playground">
    </FileRef>
    <FileRef
@@ -15,12 +21,6 @@
    </FileRef>
    <FileRef
       location = "group:Graph.playground">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/mukeshsharma/Documents/IOS/GITHUB/swift_DSA/Binary Tree.playground">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/mukeshsharma/Documents/IOS/GITHUB/swift_DSA/Linklist.playground">
    </FileRef>
    <FileRef
       location = "group:Array.playground">
