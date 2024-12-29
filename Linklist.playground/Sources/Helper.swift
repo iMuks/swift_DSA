@@ -4,8 +4,6 @@ public func example(of description: String, action: () -> Void) {
   action()
   print()
 }
-
-
 func exm(of des: String, action:() -> Void) {
     print(des)
     action()

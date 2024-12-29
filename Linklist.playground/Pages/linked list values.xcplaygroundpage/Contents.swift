@@ -38,8 +38,19 @@ class LinkListValue {
         return arr
     }
     
+    func linkListValues(_ node: Node?) -> [Int] {
+        var array = [Int]()
+        fillValues(node, &array)
+        return array
+    }
     
-    
+    func fillValues(_ node: Node? , _ array: inout [Int]) {
+        guard let current = node else {
+            return
+        }
+        array.append(current.value)
+        fillValues(current.next, &array)
+    }
 }
 
 example(of: "LinkListValue") {
@@ -57,4 +68,22 @@ example(of: "convert Into Array") {
     let oout = LinkListValue().recursionIntoArr(obj)
     print(out)
     print(oout)
+    let cout = LinkListValue().linkListValues(obj)
+    print("rec -- \(cout)")
+
+}
+
+
+example(of: "Print all values") {
+    let node = LinkListValue().createLinkList()
+    var current: Node? = node
+    guard current != nil else {
+        print("Empty Node")
+        return
+    }
+    while current != nil {
+        print("current value \(String(describing: current?.value))")
+        current = current?.next ?? nil
+    }
+    
 }
